@@ -43,7 +43,7 @@ jobs:
         sudo -E apt-get -qq clean
         sudo pip3 install gdown
         sudo pip3 install git+https://github.com/Juvenal-Yescas/mediafire-dl
-        wget https://mega.nz/linux/repo/xUbuntu_20.04/amd64/megacmd-xUbuntu_20.04_amd64.deb && sudo apt install "$PWD/megacmd-xUbuntu_20.04_amd64.deb"
+        wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megacmd-xUbuntu_22.04_amd64.deb && sudo apt install "$PWD/megacmd-xUbuntu_22.04_amd64.deb"
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /workdir/openwrt
         sudo chown $USER:$GROUPS /workdir
